@@ -1,0 +1,200 @@
+/* Stylesheet for huddle page */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* !!! Check on: Actions to embed fonts into website & rules on how best to this in a performant way */
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+/* set content container to max-width: 110px */
+
+.huddle-nav {
+  padding: 25px 0px 25px 5px;
+  margin-bottom: 50px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.right-nav {
+  margin-right: 25px;
+}
+
+.huddle-logo {
+  width: 120px;
+  height: 20px;
+}
+
+.btn-try-nav {
+  background-color: white;
+  border-radius: 20px;
+  font-size: 12px;
+  border: hsl(322, 100%, 66%) 1px solid;
+  padding: 6px 16px 5px 16px;
+  color: hsl(322, 100%, 66%);
+  cursor: pointer;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 150px;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 75%;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 30px;
+  font-family: open sans;
+}
+
+.hero-text {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  width: 45%;
+  text-align: center;
+}
+
+/* Review border radius to understand dimensions */
+
+.heroCTA {
+  padding: 15px 60px 15px 60px;
+  cursor: pointer;
+  border: none;
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  font-size: 11px;
+  border-radius: 80px;
+  box-shadow: -11px 20px 15px -3px rgba(0, 0, 0, 0.1),
+    0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+/* temporary breakpoint down the page */
+
+.attribution {
+  margin-top: 500px;
+  font-size: 12px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* section below hero section - screen stats section */
+
+.screenshot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.screenlayout {
+  width: 760px;
+  height: 600px;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.left-stats {
+  border: black 1px solid;
+}
+
+.right-stats {
+  border: black 1px solid;
+}
+
+.center-grid {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.left-stats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+.right-stats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+.communities {
+  width: 20px;
+  height: 20px;
+}
+
+.speech {
+  width: 20px;
+  height: 20px;
+}
+
+.pstats {
+  font-weight: 700;
+}
+
+.clarification {
+  font-weight: 300;
+  font-size: 12px;
+  opacity: 70%;
+}
+
+.center-box {
+  border: black 1px solid;
+}
+
+/* ---- Media Query --- */
+
+@media screen and (max-width: 800px) {
+  .huddle-nav {
+    padding: 25px 0px 25px 50px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .hero-text {
+    width: 70%;
+  }
+
+  .hero-text {
+    margin-bottom: 30px;
+  }
+
+  .screenlayout {
+    width: 440px;
+    height: 300px;
+  }
+
+  .hero {
+    margin-bottom: 100px;
+  }
+}

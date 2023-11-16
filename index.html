@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <!-- NEVER FORGET THAT IT IS HREF not SRC-->
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Huddle landing page with curved sections</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+
+  <body>
+    <!-- Site header section containing the navigation-->
+    <header>
+      <nav class="huddle-nav">
+        <div class="container">
+          <img class="huddle-logo" src="./images/logo.svg" alt="huddle-logo" />
+          <div class="right-nav">
+            <button class="btn-try-nav">Try it free</button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        <!-- hero section -->
+        <section class="hero">
+          <div class="hero-content">
+            <h1>Build the community your fans will love</h1>
+            <p class="hero-text">
+              Huddle does something that I don't understand, such as building
+              community. Create connections with folks and build discussion.
+            </p>
+            <button class="heroCTA">Get Started For Free</button>
+          </div>
+        </section>
+      </div>
+
+      <section class="screen-stats">
+        <div class="screenshot">
+          <img
+            src="./images/screen-mockups.svg"
+            alt="screen-mockups"
+            class="screenlayout"
+          />
+        </div>
+
+        <div class="center-grid">
+          <div class="stats">
+            <!-- use grid to test layout skills-->
+            <div class="left-stats">
+              <div class="center-box">
+                <img
+                  src="./images/icon-communities.svg"
+                  alt="icon"
+                  class="communities"
+                />
+                <p class="pstats">1.4k+</p>
+                <p class="clarification">Communities formed</p>
+              </div>
+            </div>
+
+            <div class="right-stats">
+              <div class="center-box">
+                <img
+                  src="./images/icon-messages.svg"
+                  alt="icon"
+                  class="speech"
+                />
+                <p class="pstats">2.7m+</p>
+                <p class="clarification">Messages sent</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- this section is outside of the holding container as I need to flow the background across the screen
+
+      <section class="grow-together">
+        <div class="top-wavy-line">
+          <img src="#" alt="wavy line" />
+        </div>
+        <div class="container">
+          <div class="growtogether-grid">
+            <h2>Grow Together</h2>
+            <p>Generate meaningfull discussions with your audience</p>
+            <img src="./images/illustration-your-users.svg"
+            alt="cheesy-image-of-users"
+          </div>
+        </div>
+      </section>
+
+    --></main>
+
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">John Dick</a>.
+      </p>
+    </footer>
+  </body>
+</html>
