@@ -31,8 +31,6 @@
     />
 
     <title>Frontend Mentor | Huddle landing page with curved sections</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   </head>
 
   <body>
@@ -62,63 +60,82 @@
           </div>
         </section>
       </div>
+    </main>
 
-      <section class="screen-stats">
-        <div class="screenshot">
-          <img
-            src="./images/screen-mockups.svg"
-            alt="screen-mockups"
-            class="screenlayout"
-          />
-        </div>
+    <section class="screen-stats">
+      <div class="screenshot">
+        <img
+          src="./images/screen-mockups.svg"
+          alt="screen-mockups"
+          class="screenlayout"
+        />
+      </div>
 
-        <div class="center-grid">
-          <div class="stats">
-            <!-- use grid to test layout skills-->
-            <div class="left-stats">
-              <div class="center-box">
-                <img
-                  src="./images/icon-communities.svg"
-                  alt="icon"
-                  class="communities"
-                />
-                <p class="pstats">1.4k+</p>
-                <p class="clarification">Communities formed</p>
-              </div>
+      <div class="center-grid">
+        <div class="stats">
+          <!-- use grid to test layout skills-->
+          <div class="left-stats">
+            <div class="center-box">
+              <img
+                src="./images/icon-communities.svg"
+                alt="icon"
+                class="communities"
+              />
+              <p class="pstats">1.4k+</p>
+              <p class="clarification">Communities formed</p>
             </div>
+          </div>
 
-            <div class="right-stats">
-              <div class="center-box">
-                <img
-                  src="./images/icon-messages.svg"
-                  alt="icon"
-                  class="speech"
-                />
-                <p class="pstats">2.7m+</p>
-                <p class="clarification">Messages sent</p>
-              </div>
+          <div class="right-stats">
+            <div class="center-box">
+              <img src="./images/icon-messages.svg" alt="icon" class="speech" />
+              <p class="pstats">2.7m+</p>
+              <p class="clarification">Messages sent</p>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- this section is outside of the holding container as I need to flow the background across the screen
+    <section class="grow-together">
+      <!--top wavy line svg-->
+      <object data="image.svg" type="image/svg+xml">
+        <img
+          src="./images/bg-section-top-desktop-1.svg"
+          alt="SVG image"
+          class="wavy-line"
+        />
+      </object>
 
-      <section class="grow-together">
-        <div class="top-wavy-line">
-          <img src="#" alt="wavy line" />
-        </div>
-        <div class="container">
-          <div class="growtogether-grid">
+      <!--===========-->
+      <div class="growspan">
+        <div class="grid-wrapper">
+          <div class="left-grow">
             <h2>Grow Together</h2>
-            <p>Generate meaningfull discussions with your audience</p>
-            <img src="./images/illustration-your-users.svg"
-            alt="cheesy-image-of-users"
+            <p>
+              Generate meaningfull discussions with your audience Lorem ipsum
+              dolor sit amet consectetur adipisicing elit. Doloribus eveniet
+              magnam.
+            </p>
+          </div>
+          <div class="right-grow">
+            <img
+              src="./images/illustration-grow-together.svg"
+              alt="cheesy-image-of-users"
+              class="users-board"
+            />
           </div>
         </div>
-      </section>
+      </div>
 
-    --></main>
+      <object data="image.svg" type="image/svg+xml">
+        <img
+          src="./images/bg-section-bottom-desktop-2.svg"
+          alt="SVG image"
+          class="wavy-line"
+        />
+      </object>
+    </section>
 
     <footer>
       <p class="attribution">
